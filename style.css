@@ -1,0 +1,355 @@
+body{
+	background: #13182C;
+	background: url(img/P1077757_400x400.progressive.jpg.webp);
+	padding:7%;
+	color: #babbd8;
+}
+    
+.all-body{
+	background: #060C21;
+	-webkit-box-shadow: inset 0px 0px 18px 0px rgba(0,0,0,1);
+-moz-box-shadow: inset 0px 0px 18px 0px rgba(0,0,0,1);
+box-shadow: inset 0px 0px 18px 0px rgba(0,0,0,1);
+font-family: 'Abril Fatface', cursive;
+
+}
+
+.bg-dark{
+	background-color: transparent; !important;
+	-webkit-box-shadow: inset 0px 0px 18px 0px rgba(0,0,0,1);
+-moz-box-shadow: inset 0px 0px 18px 0px rgba(0,0,0,1);
+box-shadow: inset 0px 0px 18px 0px rgba(0,0,0,1);
+}
+
+.all-head{
+	padding: 10px 20px ;
+	display: inline-block;
+	border-radius: 0 50px 50px 0;
+	margin: 30px 0px;
+}
+
+
+/*============= Vidro Section Strat=============*/
+
+ /* Style the video: 100% width and height to cover the entire window */
+ .top-part{
+ 	 position: relative;
+ }
+.myVideo {
+  
+  width: 100%;
+  min-height: 100%;
+  padding-right: 2px !important; 
+
+}
+.myVideo source{
+	
+	 width: 100%;
+  height: 100%;
+}
+.top-part-content {
+ 	position: absolute;
+ 	color: #f1f1f1;
+	text-align: center;
+	bottom: 50%;
+	right: 50%;
+	transform: translate(50%, 50%);
+	
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 20px;
+
+}
+.top-part-content h1 {
+	font-size: 50px;
+}
+
+.about-content .col-md-10{
+	box-shadow:  0px 0px 18px 0px rgba(0,0,0,1);
+	}
+
+/*============= Video Section End=============*/
+
+
+/*============= Food Menu Start=============*/
+.food-menu{
+
+}
+.food-menu .food-menu-bg{
+	overflow: visible;
+}
+.food-menu .food-menu-content{
+	z-index: 999;
+}
+.food-menu .food-menu-content ul{
+	
+margin: 100px 50px;
+padding: 50px;
+margin-left: -150px;
+
+
+}
+.food-menu  ul li{
+padding: 5px;	
+margin-bottom: 15px;
+list-style: none;	
+border-bottom: 3px dashed #060C21;
+
+}
+
+.food-menu .food-menu-content ul li span{
+	
+}
+
+.food-menu-conright{
+	z-index: 99;
+}
+
+.food-menu-conright ul{
+	
+	margin: 100px 50px;
+    padding: 50px;
+    margin-right: -150px;
+    
+
+}
+.food-menu-conright ul li{}
+.food-menu-conright ul li span{}
+
+@media (max-width: 768px){
+	.food-menu .food-menu-content ul{
+		margin: 0px;
+		padding: 10px;
+		margin-left: 0px;
+		
+	}
+
+	.food-menu-conright ul{
+	
+	margin: 0px;
+    padding: 10px;
+    margin-right: 0px;
+   
+	}
+}
+
+.food-menu-bg{
+	min-height: 300px;
+}
+/*============= Food Menu End=============*/
+
+
+
+/*============= Food Item  Start=============*/
+
+.food-item{
+
+
+}
+
+.food-single-item {
+  
+}
+.food-single-image{
+	background: #0E1120;
+	box-shadow: 5px 5px 15px #000;
+}
+.food-single-image img{
+
+	display: block;
+	transition: 1s;
+	width: 100%;
+	height: 250px;
+	 
+}
+
+
+
+.food-single-price {
+	height: 250px;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba( 6, 12, 33, 0.7);
+  overflow: hidden;
+  width: 92%;
+  height:0;
+  transition: .5s ease;
+ margin: 0 auto;
+ text-align: center;
+ color: #fff;
+
+}
+.food-single-price h4{
+	padding-top: 30%;
+
+}
+
+.food-single-item:hover .food-single-price {
+	bottom: 0px;
+  height: 100%;
+}
+
+/*============= Food Item  End =============*/
+
+
+/*============= Blog Start =============*/
+
+.single-post{
+	border: 1px dashed #343A40;
+}
+
+/*============= Blog  End =============*/
+
+/*============= Chef Start =============*/
+
+.chef-head h3{
+	
+	color: #fff;
+}
+.chef img{
+	height: 250px;
+	box-shadow: inset 0px 0px 18px 0px rgba(0,0,0,1);
+}
+
+.chef .card{
+	background: transparent;
+	box-shadow: inset 0px 0px 18px 0px rgba(0,0,0,1);
+}
+
+/*============= Chef End =============*/
+
+/*============= Food Tap Start=============*/
+
+.tab-content{
+	background: transparent;
+	box-shadow: inset 0px 0px 18px 0px rgba(0,0,0,1);
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+	
+	border-radius: 0px;
+   background: transparent;
+	box-shadow: inset 0px 10px 18px 0px rgba(0,0,0,1);
+}
+
+/*============= Food Tap End=============*/
+
+.testimonial{}
+.testimonial img{
+	height: 200px;
+	width: 200px;
+}
+.carousel{
+	border: 1px dashed #343A40;
+	box-shadow:  0px 0px 18px 0px rgba(0,0,0,1);
+}
+.mapouter{
+	height: 650px;
+}
+.mapouter iframe{
+	height: 650px;
+}
+.form-part{
+	border: 1px dashed #343A40;
+}
+.form-part input, .form-part textarea  {
+	color: #fff;
+	padding: 15px !important;
+	background: transparent;
+		box-shadow: inset 0px 0px 18px 0px rgba(0,0,0,1);
+	
+}
+.form-part select{
+	height: 50px;
+	background: transparent;
+		box-shadow: inset 0px 0px 18px 0px rgba(0,0,0,1);
+}
+.form-control:focus {
+    color: #495057;
+    background-color: transparent;
+   color: #fff;
+    border: 1px dashed #343A40;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.0);
+}
+.custom-select:focus {
+	color: #495057;
+    background-color: transparent;
+     border: 1px dashed #343A40;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.0);s
+}
+.footer-nav{}
+.footer-nav ul{}
+.footer-nav li{
+	padding-bottom: 20px;
+}
+.footer-nav li a{
+
+	color: #BABBD8;
+}
+.adress{}
+.adress li{
+	list-style: none;
+	padding: 5px;
+}
+.social  li{
+	list-style: none;
+	float: left;
+	padding: 5px;
+	
+	
+
+}
+.social  li  a{
+	color: #BABBD8;
+	display: block;
+	border-radius: 50px;
+	padding: 10px;
+	border: 2px solid #BABBD8;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	line-height: 16px;
+	transition: all .5s;
+
+}
+.social  li:hover  a{
+	color: #0B1D38;
+	background-color: #BABBD8;
+
+}
+.copy-right{
+	
+}
+@media (max-width: 767px ){
+	body{
+	
+	padding:5%;
+
+
+}
+
+.top-part-content h1 {
+	font-size: 30px;
+}
+
+h4{
+	font-size: 20px;
+}
+h3{
+	font-size: 20px;
+}
+h2{
+	font-size: 25px;
+}
+
+.order-lg-last{
+	margin-bottom: 30px;
+}
+
+}
+@media (max-width: 575px ){
+	body{
+		
+}
+}
